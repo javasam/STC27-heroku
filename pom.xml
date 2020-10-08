@@ -61,7 +61,7 @@
                 <goal>copy</goal>
               </goals>
               <configuration>
-                <outputDirectory>${endorsed.dir}</outputDirectory>
+                <outputDirectory>target/dependency/</outputDirectory>
                 <silent>true</silent>
                 <artifactItems>
                   <artifactItem>
